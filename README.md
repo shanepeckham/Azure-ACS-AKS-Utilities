@@ -1,0 +1,1 @@
+To make my life easier - more features and docs to come
