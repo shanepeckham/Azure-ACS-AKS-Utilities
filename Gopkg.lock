@@ -5,10 +5,12 @@
   name = "github.com/Azure/azure-sdk-for-go"
   packages = [
     "services/compute/mgmt/2018-04-01/compute",
+    "services/containerservice/mgmt/2017-09-30/containerservice",
+    "services/network/mgmt/2018-04-01/network",
     "version"
   ]
-  revision = "060bf9b93ad98bc41813ca23f5328843f6c0e90b"
-  version = "v15.2.0"
+  revision = "767429fcb996dad413936d682c28301e6739bade"
+  version = "v16.1.0"
 
 [[projects]]
   name = "github.com/Azure/go-autorest"
@@ -21,8 +23,8 @@
     "autorest/to",
     "autorest/validation"
   ]
-  revision = "1ff28809256a84bb6966640ff3d0371af82ccba4"
-  version = "v10.6.2"
+  revision = "eaa7994b2278094c904d31993d26f56324db3052"
+  version = "v10.8.1"
 
 [[projects]]
   name = "github.com/dgrijalva/jwt-go"
@@ -165,6 +167,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c2aa488de3d964f8f45ee126e644b4e003c02961a6ca2ff3ba563ef4b25bb2d2"
+  inputs-digest = "9f7b44923f0225b0986c4d250c437bf6a61152de0f642cd6d4f15654f1041a6c"
   solver-name = "gps-cdcl"
   solver-version = 1

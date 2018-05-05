@@ -16,7 +16,7 @@
             "host": "localhost",
             "program": "${fileDirname}",
             "env": {},
-            "args": [],
+            "args": ["vmstop --cluster-name burster"],
             "showLog": true
         }
     ]

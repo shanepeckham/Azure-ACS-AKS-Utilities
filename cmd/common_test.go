@@ -19,6 +19,8 @@ import (
 	"testing"
 
 	compute "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute"
+	containerservice "github.com/Azure/azure-sdk-for-go/services/containerservice/mgmt/2017-09-30/containerservice"
+	network "github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network"
 )
 
 func Test_getComputeClient(t *testing.T) {
@@ -33,6 +35,51 @@ func Test_getComputeClient(t *testing.T) {
 			if got := getComputeClient(); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("getComputeClient() = %v, want %v", got, tt.want)
 			}
+		})
+	}
+}
+
+func Test_getAKSClient(t *testing.T) {
+	tests := []struct {
+		name string
+		want containerservice.ManagedClustersClient
+	}{
+		// TODO: Add test cases.
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := getAKSClient(); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("getAKSClient() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func Test_getPIPClient(t *testing.T) {
+	tests := []struct {
+		name string
+		want network.PublicIPAddressesClient
+	}{
+		// TODO: Add test cases.
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := getPIPClient(); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("getPIPClient() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
+
+func TestLoadCredential(t *testing.T) {
+	tests := []struct {
+		name string
+	}{
+		// TODO: Add test cases.
+	}
+	for range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			LoadCredential()
 		})
 	}
 }

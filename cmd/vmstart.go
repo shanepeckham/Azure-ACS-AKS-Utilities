@@ -23,18 +23,34 @@ import (
 
 var cerr error
 
-var resourceGroup string
+
 
 // vmstartCmd represents the vmstart command
 var vmstartCmd = &cobra.Command{
 	Use:   "vmstart",
-	Short: "Start all VMs for a ResourceGroup or K8 Cluster",
-	Long: `Start all VMs for a ResourceGroup or K8 Cluster. For example:
+	Short: "Start all VMs for a resource-group or K8 Cluster",
+	Long: `Start all VMs for a resource-group or K8 Cluster. For example:
 
-goaz vmstart --ResourceGroup myresourcegroup`,
+goaz vmstart --resource-group myresourcegroup`,
 	Run: func(cmd *cobra.Command, args []string) {
 
 		ctx := context.Background()
+
+		// This is AKS so let's generate the resourceGroup that contains the  VMs
+		if clusterName != "" {
+
+			//Instantiate the AKS Client
+			aksClient = getAKSClient()
+
+			managedCluster, err = aksClient.Get(ctx, resourceGroup, clusterName)
+			resourceGroup = "MC_" + resourceGroup + "_" + clusterName + "_" + *managedCluster.Location
+
+			if err != nil {
+				log.Printf("Could not retrieve AKS clusters for ResourceGroup %q with error %q", resourceGroup, err)
+			}
+
+		}
+
 		vmResultPage, err = computeClient.List(ctx, resourceGroup)
 
 		if err != nil {
@@ -60,9 +76,13 @@ func init() {
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
 	//vmstartCmd.PersistentFlags().String("ResourceGroup", "", "Resource Group that you want to stop VMs for")
-	vmstartCmd.Flags().StringVarP(&resourceGroup, "ResourceGroup", "", "", "Resource Group that you want to start VMs for if you are running ACS-Engine")
+	vmstartCmd.Flags().StringVarP(&resourceGroup, "resource-group", "g", "", "Resource Group that you want to start VMs for if you are running ACS-Engine")
+	vmstartCmd.Flags().StringVarP(&clusterName, "cluster-name", "n", "", "Cluster that you want to stop VMs for if you are running AKS")
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	// vmstartCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	if authorizer == nil {
+		LoadCredential()
+	}
 	computeClient = getComputeClient()
 }

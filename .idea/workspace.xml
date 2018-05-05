@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcd4535d-1d16-417b-b056-05705f57f3e3" name="Default" comment="" />
+    <list default="true" id="fcd4535d-1d16-417b-b056-05705f57f3e3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/common_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/common_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/vmstart.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/vmstart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/vmstop.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/vmstop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug" beforeDir="false" afterPath="$PROJECT_DIR$/debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goaz" beforeDir="false" afterPath="$PROJECT_DIR$/goaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/availabilitysets.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/availabilitysets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/containerservices.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/containerservices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/disks.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/disks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/images.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/images.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/loganalytics.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/loganalytics.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/snapshots.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/snapshots.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensionimages.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensionimages.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineimages.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineimages.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineruncommands.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineruncommands.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachines.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachines.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetextensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetextensions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetrollingupgrades.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetrollingupgrades.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesets.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetvms.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetvms.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinesizes.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinesizes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/version/version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/adal/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/adal/token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/authorization.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/authorization.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/azure/auth/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/azure/auth/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/utility.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/utility.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/version.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,45 +47,121 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="vmstart.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/vmstart.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vmstop.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/vmstop.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1201">
+              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding>
+                <element signature="e#618#673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="common.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/common.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="198">
+              <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
+              <folding>
+                <element signature="e#618#929#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vmstart.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cmd/vmstart.go">
+      <file leaf-file-name="publicipaddresses.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network/publicipaddresses.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="327">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/models.go">
+      <file leaf-file-name="validation.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/validation/validation.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="5886" selection-start-line="5886" selection-end-line="5886" />
+            <state relative-caret-position="180">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
+      <file leaf-file-name="value.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/reflect/value.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="129">
+              <caret line="2160" selection-start-line="2160" selection-end-line="2160" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panic.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="590" selection-start-line="590" selection-end-line="590" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="piptodns.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmd/piptodns.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding>
+                <element signature="e#618#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd/common_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proc.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/proc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.10/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoDepProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -58,6 +170,15 @@
       <list>
         <option value="/usr/local/include/String.h" />
         <option value="/usr/local/include/Node.h" />
+        <option value="$PROJECT_DIR$/cmd/aciCreate.go" />
+        <option value="$PROJECT_DIR$/cmd/network.go" />
+        <option value="$PROJECT_DIR$/cmd/acsCreate.go" />
+        <option value="$PROJECT_DIR$/cmd/root.go" />
+        <option value="$PROJECT_DIR$/cmd/assignFQDN.go" />
+        <option value="$PROJECT_DIR$/cmd/vmstop.go" />
+        <option value="$PROJECT_DIR$/cmd/vmstart.go" />
+        <option value="$PROJECT_DIR$/cmd/piptodns.go" />
+        <option value="$PROJECT_DIR$/cmd/common.go" />
       </list>
     </option>
   </component>
@@ -67,11 +188,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -89,6 +212,11 @@
               <item name="goaz" type="462c0819:PsiDirectoryNode" />
               <item name="cmd" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="goaz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goaz" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -97,12 +225,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go Run">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="goaz" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -130,7 +260,7 @@
       <module name="goaz" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
-      <parameters value="vmstart --ResourceGroup istio" />
+      <parameters value="piptodns --cluster-name burster --resource-group burster --pipAddress 104.211.27.168 --dns-name mofowofoyolobobo" />
       <envs>
         <env name="AZURE_AUTH_LOCATION" value="$USER_HOME$/sources/securecred/mycredentials.json" />
       </envs>
@@ -139,50 +269,55 @@
       <package value="github.com/shanepeckham/goaz" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build vmstart.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="goaz" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <parameters value="vmstart --ResourceGroup istio" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/cmd/vmstart.go" />
-      <package value="github.com/shanepeckham/goaz" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <list>
-      <item itemvalue="Go Build.go Run" />
-      <item itemvalue="Go Build.go build vmstart.go" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go Run" />
-        <item itemvalue="Go Build.go build vmstart.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <frame x="-1" y="23" width="1440" height="831" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50069445" side_tool="true" weight="0.40819022" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22853369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.40819022" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34357956" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15319782" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -193,20 +328,58 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cmd/vmstart.go</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="2" />
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network/publicipaddresses.go</url>
+          <line>205</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cmd/vmstart.go</url>
-          <line>43</line>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network/publicipaddresses.go</url>
+          <line>354</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/azure/rp.go</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/client.go</url>
+          <line>235</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/authorization.go</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/client.go</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="77" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -254,69 +427,358 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmd/common.go">
+    <entry file="file://$PROJECT_DIR$/cmd/aciCreate.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="1056">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/network.go" />
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="572" selection-start-line="572" selection-end-line="572" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Azure/azure-sdk-for-go/services/network/mgmt/2018-02-01/network/publicipaddresses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="187" column="37" selection-start-line="187" selection-start-column="37" selection-end-line="187" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachines.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="549" selection-start-line="549" selection-end-line="549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="840" selection-start-line="840" selection-end-line="840" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/retriablerequest_1.8.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/vmstart.go">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/retriablerequest.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+        <state relative-caret-position="155">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/common.go">
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/textproto/reader.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="129">
+          <caret line="571" selection-start-line="571" selection-end-line="571" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/vmstart.go">
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/textproto/header.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="155">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/String.h" />
-    <entry file="file://$PROJECT_DIR$/cmd/common.go">
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/http/header.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="177">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/include/Node.h" />
-    <entry file="file:///usr/local/include/String.h" />
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/http/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/sync/mutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/strconv/atoi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/date/unixtime.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/sys_darwin_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/bytes/buffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/net/url/url.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="743" selection-start-line="743" selection-end-line="743" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/adal/config.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/sync/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/error.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/sync/rwmutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/preparer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/responder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/utility.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/containerservice/mgmt/2017-09-30/containerservice/managedclusters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/autorest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/adal/token.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="717" selection-start-line="717" selection-end-line="717" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/authorization.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/azure/rp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="47">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/models.go">
+    <entry file="file://$PROJECT_DIR$/cmd/acsCreate.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="5886" selection-start-line="5886" selection-end-line="5886" />
+        <state relative-caret-position="734">
+          <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/builtin/builtin.go">
+    <entry file="file://$PROJECT_DIR$/cmd/assignFQDN.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="1322">
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/os/env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12379" selection-start-line="12379" selection-end-line="12379" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/root.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#618#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="590" selection-start-line="590" selection-end-line="590" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10/libexec/src/reflect/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="2160" selection-start-line="2160" selection-end-line="2160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/validation/validation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network/publicipaddresses.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/vmstop.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1201">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="e#618#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
+          <folding>
+            <element signature="e#618#929#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/vmstart.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="1760">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/piptodns.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#618#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/common_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>

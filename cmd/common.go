@@ -20,20 +20,40 @@ import (
 	"log"
 	"os"
 
-	"github.com/Azure/go-autorest/autorest"
-
 	compute "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute"
-	//"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-03-30/compute"
+	containerservice "github.com/Azure/azure-sdk-for-go/services/containerservice/mgmt/2017-09-30/containerservice"
+	network "github.com/Azure/azure-sdk-for-go/services/network/mgmt/2018-04-01/network"
+
+	autorest "github.com/Azure/go-autorest/autorest"
 	auth "github.com/Azure/go-autorest/autorest/azure/auth"
 )
 
 var computeClient compute.VirtualMachinesClient
-var authorizer autorest.Authorizer
-var vmResultPage compute.VirtualMachineListResultPage
-var err error
+var acsClient containerservice.ContainerServicesClient
+var aciClient containerservice.ContainerServicesClient
+var aksClient containerservice.ManagedClustersClient
+var pipClient network.PublicIPAddressesClient
 
-var vms func() []compute.VirtualMachine
+var authorizer autorest.Authorizer
+
+var vmResultPage compute.VirtualMachineListResultPage
+var aksResultPage containerservice.ManagedClusterListResultPage
+var pipResultPage network.PublicIPAddressListResultPage
+
+var err error
+var acsParameters compute.ContainerService
+var aciParameters containerservice.ContainerService
+var managedCluster containerservice.ManagedCluster
+var pipParameters network.PublicIPAddress
+
 var vm compute.VirtualMachine
+var ips network.PublicIPAddress
+var akscluster containerservice.ManagedCluster
+
+var resourceGroup string
+var clusterName string
+var publicIP string
+var dnsName string
 
 // AcsCredential represents the credential file for GoAz
 type AcsCredential struct {
@@ -44,11 +64,10 @@ type AcsCredential struct {
 	ClientSecret   string `json:"clientSecret"`
 }
 
+// Create a ComputeClient
 func getComputeClient() compute.VirtualMachinesClient {
 
 	computeClient = compute.NewVirtualMachinesClient(os.Getenv("AZURE_SUBSCRIPTION_ID"))
-	authorizer, err := auth.NewAuthorizerFromEnvironment()
-	//authorizer, err := auth.NewAuthorizerFromFile(os.Getenv("AZURE_AUTH_LOCATION"))
 
 	if err == nil {
 		computeClient.Authorizer = authorizer
@@ -58,8 +77,79 @@ func getComputeClient() compute.VirtualMachinesClient {
 	return computeClient
 }
 
+// Create an AKSClient
+func getAKSClient() containerservice.ManagedClustersClient {
+
+	aksClient = containerservice.NewManagedClustersClient(os.Getenv("AZURE_SUBSCRIPTION_ID"))
+
+	if err == nil {
+		aksClient.Authorizer = authorizer
+	} else {
+		println("Could not authenticate", err)
+	}
+	return aksClient
+}
+
+// Create a ContainerServiceClient
+func getACIClient() containerservice.ContainerServicesClient {
+
+	aciClient = containerservice.NewContainerServicesClient(os.Getenv("AZURE_SUBSCRIPTION_ID"))
+
+	if err == nil {
+		aciClient.Authorizer = authorizer
+	} else {
+		println("Could not authenticate", err)
+	}
+	return aciClient
+}
+
+// Create a ContainerServiceClient
+func getACSClient() containerservice.ContainerServicesClient {
+
+	acsClient = containerservice.NewContainerServicesClient(os.Getenv("AZURE_SUBSCRIPTION_ID"))
+
+	if err == nil {
+		acsClient.Authorizer = authorizer
+	} else {
+		println("Could not authenticate", err)
+	}
+	return acsClient
+}
+
+// Create a pipClient
+func getPIPClient() network.PublicIPAddressesClient {
+
+	pipClient = network.NewPublicIPAddressesClient(os.Getenv("AZURE_SUBSCRIPTION_ID"))
+
+	if err == nil {
+		pipClient.Authorizer = authorizer
+	} else {
+		println("Could not authenticate", err)
+	}
+	return pipClient
+}
+
 // LoadCredential returns an Credential struct from file path
 func LoadCredential() {
+
+	filepath := os.Getenv("AZURE_AUTH_LOCATION")
+	log.Printf("Reading credential file %q", filepath)
+
+	b, err := ioutil.ReadFile(filepath)
+	if err != nil {
+		println("Reading credential file failed", filepath, err)
+	}
+
+	// Unmarshal the authentication file.
+	var cred AcsCredential
+	if err := json.Unmarshal(b, &cred); err != nil {
+		println("Reading credential file failed", filepath, err)
+	}
+
+	os.Setenv("AZURE_TENANT_ID", cred.TenantID)
+	os.Setenv("AZURE_CLIENT_ID", cred.ClientID)
+	os.Setenv("AZURE_CLIENT_SECRET", cred.ClientSecret)
+	os.Setenv("AZURE_SUBSCRIPTION_ID", cred.SubscriptionID)
 
 	if os.Getenv("AZURE_AUTH_LOCATION") == "" {
 		println("AZURE_AUTH_LOCATION is not set")
@@ -77,23 +167,7 @@ func LoadCredential() {
 		println("AZURE_CLIENT_SECRET is not set")
 	}
 
-	filepath := os.Getenv("AZURE_AUTH_LOCATION")
-	log.Printf("Reading credential file %q", filepath)
-
-	b, err := ioutil.ReadFile(filepath)
-	if err != nil {
-		println("Reading credential file failed", filepath, err)
-	}
-
-	// Unmarshal the authentication file.
-	var cred AcsCredential
-	if err := json.Unmarshal(b, &cred); err != nil {
-		println("Reading credential file failed", filepath, err)
-	}
-	os.Setenv("AZURE_TENANT_ID", cred.TenantID)
-	os.Setenv("AZURE_CLIENT_ID", cred.ClientID)
-	os.Setenv("AZURE_CLIENT_SECRET", cred.ClientSecret)
-	os.Setenv("AZURE_SUBSCRIPTION_ID", cred.SubscriptionID)
+	authorizer, err = auth.NewAuthorizerFromEnvironment()
 
 	log.Printf("Load credential file %q successfully and set env vars", filepath)
 }

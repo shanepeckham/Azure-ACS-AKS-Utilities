@@ -24,19 +24,35 @@ import (
 // vmstopCmd represents the vmstop command
 var vmstopCmd = &cobra.Command{
 	Use:   "vmstop",
-	Short: "Stop all VMs for a ResourceGroup or K8 Cluster",
-	Long: `Stop all VMs for a ResourceGroup or K8 Cluster. For example:
+	Short: "Stop all VMs for a resource-group or K8 Cluster",
+	Long: `Stop all VMs for a resource-group or K8 Cluster. For example:
 
-goaz vmstop --ResourceGroup myresourcegroup`,
+goaz vmstop (--resource-group myresourcegroup) and (--cluster-name myclustername) for AKS`,
 	Run: func(cmd *cobra.Command, args []string) {
 
 		ctx := context.Background()
+
+		// This is AKS so let's generate the resourceGroup that contains the  VMs
+		if clusterName != "" {
+
+			//Instantiate the AKS Client
+			aksClient = getAKSClient()
+
+			managedCluster, err = aksClient.Get(ctx, resourceGroup, clusterName)
+			resourceGroup = "MC_" + resourceGroup + "_" + clusterName + "_" + *managedCluster.Location
+
+			if err != nil {
+				log.Printf("Could not retrieve AKS clusters for ResourceGroup %q with error %q", resourceGroup, err)
+			}
+
+		}
 
 		vmResultPage, err = computeClient.List(ctx, resourceGroup)
 
 		if err != nil {
 			log.Printf("Could not retrieve vms for ResourceGroup %q with error %q", resourceGroup, err)
 		}
+
 
 		for _, vm = range vmResultPage.Values() {
 			_, err := computeClient.Deallocate(ctx, resourceGroup, *vm.Name)
@@ -46,6 +62,7 @@ goaz vmstop --ResourceGroup myresourcegroup`,
 				log.Printf("Deallocate vm %q for ResourceGroup %q", *vm.Name, resourceGroup)
 			}
 		}
+
 	},
 }
 
@@ -57,9 +74,13 @@ func init() {
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
 	// vmstopCmd.PersistentFlags().String("foo", "", "A help for foo")
-	vmstopCmd.Flags().StringVarP(&resourceGroup, "ResourceGroup", "", "", "Resource Group that you want to stop VMs for if you are running ACS-Engine")
+	vmstopCmd.Flags().StringVarP(&resourceGroup, "resource-group", "g", "", "Resource Group that you want to stop VMs for if you are running ACS-Engine")
+	vmstopCmd.Flags().StringVarP(&clusterName, "cluster-name", "n", "", "Cluster that you want to stop VMs for if you are running AKS")
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	// vmstopCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	if authorizer == nil {
+		LoadCredential()
+	}
 	computeClient = getComputeClient()
 }
