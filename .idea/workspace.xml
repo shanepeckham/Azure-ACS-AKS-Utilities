@@ -3,40 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd4535d-1d16-417b-b056-05705f57f3e3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gopkg.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/common.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/common_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/common_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/vmstart.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/vmstart.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/vmstop.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/vmstop.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug" beforeDir="false" afterPath="$PROJECT_DIR$/debug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goaz" beforeDir="false" afterPath="$PROJECT_DIR$/goaz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/availabilitysets.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/availabilitysets.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/containerservices.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/containerservices.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/disks.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/disks.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/images.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/images.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/loganalytics.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/loganalytics.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/models.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/snapshots.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/snapshots.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/usage.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensionimages.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensionimages.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineextensions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineimages.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineimages.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineruncommands.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachineruncommands.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachines.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachines.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetextensions.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetextensions.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetrollingupgrades.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetrollingupgrades.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesets.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesets.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetvms.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinescalesetvms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinesizes.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2018-04-01/compute/virtualmachinesizes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/version/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/azure-sdk-for-go/version/version.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/adal/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/adal/token.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/authorization.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/authorization.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/azure/auth/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/azure/auth/auth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/sender.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/utility.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/utility.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/Azure/go-autorest/autorest/version.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,7 +85,7 @@
       <file leaf-file-name="piptodns.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/piptodns.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
+            <state relative-caret-position="-998">
               <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#618#662#0" expanded="true" />
@@ -131,8 +97,8 @@
       <file leaf-file-name="common_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmd/common_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="307">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -179,6 +145,7 @@
         <option value="$PROJECT_DIR$/cmd/vmstart.go" />
         <option value="$PROJECT_DIR$/cmd/piptodns.go" />
         <option value="$PROJECT_DIR$/cmd/common.go" />
+        <option value="$PROJECT_DIR$/cmd/common_test.go" />
       </list>
     </option>
   </component>
@@ -285,9 +252,9 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22853369" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22853369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32893" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32893" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49930555" weight="0.40819022" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -767,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/piptodns.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
+        <state relative-caret-position="-998">
           <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#618#662#0" expanded="true" />
@@ -777,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/common_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="307">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
